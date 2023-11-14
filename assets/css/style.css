@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header Section */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,6 +43,8 @@ nav ul li {
     margin-left: 25px;
 }
 
+/* General Page Text Styles */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,7 +54,9 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/** Main Page Image **/
+
+figure img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,6 +64,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Main Section */
 
 .float-left {
     float: left;
@@ -74,6 +82,32 @@ section {
     display: inline-block;
     margin-left: 20px;
 }
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Aside Section */
 
 .benefits {
     margin-right: 20px;
@@ -108,29 +142,7 @@ section {
     max-width: 150px;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Footer Section */
 
 footer {
     padding: 30px;
@@ -139,6 +151,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
